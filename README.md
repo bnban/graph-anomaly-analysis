@@ -22,8 +22,7 @@ Anomalous cases versus normal cases across different types of node and edges in 
 
 ## GABA Framework
 
-**G**raph **A**nomaly **B**ehavior **A**nalysis Framework for Blockchain Social Networks Using Heterogeneous Graph Neural Networks.
-
+**G**raph Neural Networks framework for **A**nomaly **B**ehavior **A**nalysis 
 ![Anomaly_Analysis_Framework](img/Anomaly_Analysis_Framework.png)
 
 ## Experiments
