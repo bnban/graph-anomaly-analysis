@@ -1,10 +1,10 @@
-# GABA Description: Graph Anomaly Behavior Analysis Framework for Blockchain Social Networks Using Heterogeneous Graph Neural Networks.
+# Network Analysis for Hive Dataset - Blockchain Social Networks
 
 This repo contains the models and experiment notebooks for three tasks of network analysis based on GABA framework.
 
 You can found the dataset here [Dataset](dataset)
 
-## Description
+## Data Description
 We provide a dataset consisting of two parts:
 1. Raw data: These are the data blocks of the decentralized social network Hive.Blog. Specifically, these are transactions in July 2022.
 2. Processed data used for constructing a graph consists of two main input datasets: Nodes and Edges.
@@ -24,10 +24,18 @@ This repo contains the models and experiment notebooks for three tasks of networ
 
 Pic. Anomalous cases versus normal cases across different types of node and edges in the HiveABN dataset
 
+## GABA
+
+Graph Anomaly Behavior Analysis Framework for Blockchain Social Networks Using Heterogeneous Graph Neural Networks.
+
+![Anomaly_Analysis_Framework](img/Anomaly_Analysis_Framework.png)
+
+## Experiment Result
+Experiments on HiveABN using Homogeneous and Homogeneous graph rep-resentation. Since HGT is specifically designed to handle heterogeneous graphs, we do not apply homogeneous graph data to it, represented by X
+
 ![Experiment_Result](img/Experiments_Result.PNG)
 
-Pic. Experiments on HiveABN using Homogeneous and Homogeneous graph rep-resentation. 
-Since HGT is specifically designed to handle heterogeneous graphs, we do not apply homogeneous graph data to it, represented by X
+
 ## Getting Started
 
 ### Dependencies
