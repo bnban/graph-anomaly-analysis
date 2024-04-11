@@ -1,4 +1,4 @@
-# Network Analysis for Hive Dataset - Blockchain Social Networks
+# Hive Social Network Anomaly Behavior Analysis
 
 This repo contains the models and experiment notebooks for three tasks of network analysis based on GABA framework.
 
