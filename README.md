@@ -13,26 +13,28 @@ We provide a dataset consisting of two parts:
    - Edge: Source, Target, Type, Timestamp, Weight.
 
 With this processed data, we can build up the relationship between nodes and edges:
+
 ![Node_Interaction](img/Social_Structure.png)
 
-Anomalous cases versus normal cases across different types of node and edges in the HiveABN dataset
+Anomalous cases versus normal cases across different types of node and edges in the HiveABN dataset:
+
 ![Data_Summary](img/HiveABN_summary.PNG)
 
-## GABA
+## GABA Framework
 
-**G**raph** A**nomaly **B**ehavior **A**nalysis Framework for Blockchain Social Networks Using Heterogeneous Graph Neural Networks.
+**G**raph **A**nomaly **B**ehavior **A**nalysis Framework for Blockchain Social Networks Using Heterogeneous Graph Neural Networks.
 
 ![Anomaly_Analysis_Framework](img/Anomaly_Analysis_Framework.png)
 
-## Experiment
+## Experiments
 
-This repo contains the models and experiment notebooks for three tasks of graph anomaly analysis, using homogeneous and heterogenous graph structure:
+We conduct the experiment on three graph anomaly analysis tasks, using homogeneous and heterogenous graph structure:
 
-- Anomaly Node Classification (ANC)
-- Anomaly Edge Classification (AEC)
+- Anomaly Node Classification (ANC).
+- Anomaly Edge Classification (AEC).
 - Link Prediction (LP).
 
-Experiment results on HiveABN using Homogeneous and Homogeneous graph representation. Since HGT is specifically designed to handle heterogeneous graphs, we do not apply homogeneous graph data to it, represented by X.
+Experiment results on HiveABN using Homogeneous and Homogeneous graph representation. Since HGT is specifically designed to handle heterogeneous graphs, we do not apply homogeneous graph data to it, represented by **X**.
 
 ![Experiment_Result](img/Experiments_Result.PNG)
 
