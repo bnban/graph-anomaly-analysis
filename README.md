@@ -4,12 +4,16 @@ This repo contains the official network analysis code for the dataset in "..." (
 
 ## Description
 
-(Dataset description). 
+
+
+![Node_Interaction](img/Social_Structure.png)
 
 This repo contains the models and experiment notebooks for three tasks of network analysis:
 - Node classification (Node anomaly detection)
 - Link prediction
 - Link classification (Link anomaly detection).
+
+![Data_Summary](img/HiveABN_summary.PNG)
 
 ## Getting Started
 
@@ -39,13 +43,6 @@ Before executing the notebook, install the hive_analysis model by running:
 ```sh
 $ pip install -e .
 ```
-
-## Authors
-
-Contributors names and contact info
-
-[Tam Bang](https://www.facebook.com/bnbaotam)  
-[Hoang Tran](https://www.facebook.com/HoangTran12902/)
 
 ## Version History
 
