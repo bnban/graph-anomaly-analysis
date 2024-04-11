@@ -1,6 +1,6 @@
 # Hive Social Network Anomaly Behavior Analysis
 
-This repo contains the models and experiment notebooks for three tasks of network analysis based on GABA framework.
+This repo contains the models, experiment notebooks along with the HiveABN dataset.
 
 You can found the dataset here [Dataset](dataset)
 
@@ -9,16 +9,11 @@ We provide a dataset consisting of two parts:
 1. Raw data: These are the data blocks of the decentralized social network Hive.Blog. Specifically, these are transactions in July 2022.
 2. Processed data used for constructing a graph consists of two main input datasets: Nodes and Edges.
    Which contains attributes such as:
-   - Node: ID, Type, Value, HP, VEST, HIVE, HDB, Total vote, No. Follower, No. Following, Created, Post Count, Reputation, Body.
-   - Edge: Source, Target, Type, Timestamp, Interaction_Strength, Link, Body.
+   - Node: ID, Type, Value, HP, Total vote, No. Follower, No. Following, Created, Post Count, Reputation.
+   - Edge: Source, Target, Type, Timestamp, Weight.
 
 With this processed data, we can build up the relationship between nodes and edges:
 ![Node_Interaction](img/Social_Structure.png)
-
-This repo contains the models and experiment notebooks for three tasks of network analysis:
-- Anomaly Node Classification (ANC)
-- Anomaly Edge Classification (AEC)
-- Link Prediction (LP).
 
 ![Data_Summary](img/HiveABN_summary.PNG)
 
@@ -30,8 +25,15 @@ Graph Anomaly Behavior Analysis Framework for Blockchain Social Networks Using H
 
 ![Anomaly_Analysis_Framework](img/Anomaly_Analysis_Framework.png)
 
-## Experiment Result
-Experiments on HiveABN using Homogeneous and Homogeneous graph rep-resentation. Since HGT is specifically designed to handle heterogeneous graphs, we do not apply homogeneous graph data to it, represented by X
+## Experiment
+
+This repo contains the models and experiment notebooks for three tasks of graph anomaly analysis, using homogeneous and heterogenous graph structure:
+
+- Anomaly Node Classification (ANC)
+- Anomaly Edge Classification (AEC)
+- Link Prediction (LP).
+
+Experiment results on HiveABN using Homogeneous and Homogeneous graph representation. Since HGT is specifically designed to handle heterogeneous graphs, we do not apply homogeneous graph data to it, represented by X.
 
 ![Experiment_Result](img/Experiments_Result.PNG)
 
