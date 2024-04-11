@@ -15,13 +15,12 @@ We provide a dataset consisting of two parts:
 With this processed data, we can build up the relationship between nodes and edges:
 ![Node_Interaction](img/Social_Structure.png)
 
+Anomalous cases versus normal cases across different types of node and edges in the HiveABN dataset
 ![Data_Summary](img/HiveABN_summary.PNG)
-
-Pic. Anomalous cases versus normal cases across different types of node and edges in the HiveABN dataset
 
 ## GABA
 
-Graph Anomaly Behavior Analysis Framework for Blockchain Social Networks Using Heterogeneous Graph Neural Networks.
+**G**raph** A**nomaly **B**ehavior **A**nalysis Framework for Blockchain Social Networks Using Heterogeneous Graph Neural Networks.
 
 ![Anomaly_Analysis_Framework](img/Anomaly_Analysis_Framework.png)
 
